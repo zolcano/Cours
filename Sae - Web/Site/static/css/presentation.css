@@ -1,0 +1,123 @@
+html {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p{
+    margin: 0;
+    color: var(--bg-color);
+}
+
+
+
+
+.parentbutton{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    margin-top: 5px;
+}
+
+.button{
+    display: flex;
+    background-color: var(--button-color);
+    border-radius: 10px;
+    width: 100px;
+}
+
+.button img{
+    margin-top: 5px;
+    margin-bottom: 1px;
+    width: 40px;
+    margin-left: 27px;
+}
+
+
+
+
+.parentblock1{
+    display: flex;
+    gap: 5%;
+    margin-top: 15px;
+}
+
+.block11 img{
+    margin-top: 10px;
+    height: 150px;
+}
+
+.block11{
+    width: 170px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.block11 .name{
+    margin-top: 20px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.block11 .name p {
+    font-size: 25px;
+} 
+
+.block11 .job p {
+    font-size: 20px;
+} 
+
+.block12 {
+    margin-top: 5%;
+    display: flex;
+    height: auto;
+    width: 65%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.block12 div p {
+    margin-left: 10px;
+}
+
+.block12 div{
+    background-color: var(--secondary-color);
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+.parentblock2{
+    display: flex;
+    height: 75px;
+    width: 650px;
+    flex-direction: row;
+    gap: 20px; 
+}
+
+.parentblock2 div{
+    background-color: var(--button-color);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.parentblock2 div p {
+    margin: 7px;
+}
